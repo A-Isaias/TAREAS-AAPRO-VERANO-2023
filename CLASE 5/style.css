@@ -1,0 +1,101 @@
+/*asignar negrita a los dias*/
+.dia {
+    font-weight: bold;
+  }
+/*asignar cursiva a todos los horarios*/  
+  
+  .horario {
+    font-style: italic;
+  }
+/*Colores de dias y fuente mas grande*/  
+.lunes {
+    color: blue;
+    font-size: 20px;
+  }
+  
+  .martes {
+    color: green;
+    font-size: 20px;
+  }
+  
+  .miercoles {
+    color: red;
+    font-size: 20px;
+  }
+  
+  .jueves {
+    color: purple;
+    font-size: 20px;
+  }
+  
+  .viernes {
+    color: orange;
+    font-size: 20px;
+  }
+  
+  .sabado {
+    color: brown;
+    font-size: 20px;
+  }
+  
+  .domingo {
+    color: gray;
+    font-size: 20px;
+  }
+  /*Colores de horarios coincidiendo el dia*/
+  
+  .hlunes {
+    color: blue;
+    
+  }
+  
+  .hmartes {
+    color: green;
+    ;
+  }
+  
+  .hmiercoles {
+    color: red;
+  
+  }
+  
+  .hjueves {
+    color: purple;
+    
+  }
+  
+  .hviernes {
+    color: orange;
+ 
+  }
+  
+  .hsabado {
+    color: brown;
+    
+  }
+  
+  .hdomingo {
+    color: gray;
+    
+  }
+/* Estilo del header */
+header {
+  background-color: lightgray; 
+  height: 50px; 
+  width: 100%; 
+}
+
+/* Estilo del footer */
+footer {
+  background-color: lightgrey;
+  height: 50px; 
+  width: 100%; 
+}
+/* Estilo del borde del formulario */
+form {
+  border: 5px solid lightgray; /* Borde formulario */
+}
+  
+
+
+
