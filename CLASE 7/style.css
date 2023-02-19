@@ -1,0 +1,117 @@
+    /*comentario*/
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 100px);
+        gap: 10px;
+      }
+      /*primeras 3 cajas*/
+      .box-1 {
+        background-color: red;
+      }
+
+      .box-2 {
+        background-color: green;
+      }
+
+      .box-3 {
+        background-color: blue;
+      }
+
+      /* media query para tablet */
+      @media only screen and (min-width: 321px) and (max-width: 768px) {
+        .container {
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: repeat(3, 200px);
+        }
+
+        .box-4 {
+          background-color: yellow;
+          grid-row-start: 1;
+          grid-column-start: 4;
+        }
+
+        .box-5 {
+          background-color: aquamarine;
+          grid-row-start: 2;
+          grid-column-start: 2;
+        }
+
+        /* cuandrados adidionales */
+        .box-6 {
+          background-color: purple;
+          grid-row-start: 2;
+          grid-column-start: 4;
+        }
+
+        .box-7 {
+          background-color: orange;
+          grid-row-start: 1;
+          grid-column-start: 3;
+        }
+
+        .box-8 {
+          background-color: greenyellow;
+          grid-row-start: 2;
+          grid-column-start: 3;
+        }
+      }
+
+      /* pc de escritorio */
+      @media only screen and (min-width: 769px) {
+        .container {
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: repeat(3, 200px);
+        }
+
+        .box-4 {
+          background-color: yellow;
+          grid-row-start: 1;
+          grid-column-start: 4;
+        }
+
+        .box-5 {
+          background-color: aquamarine;
+          grid-row-start: 2;
+          grid-column-start: 2;
+        }
+
+        /* Cuadrados adicionales para pc */
+        .box-6 {
+          background-color: purple;
+          grid-row-start: 2;
+          grid-column-start: 4;
+        }
+
+        .box-7 {
+          background-color: orange;
+          grid-row-start: 1;
+          grid-column-start: 3;
+        }
+
+        .box-8 {
+          background-color: greenyellow;
+          grid-row-start: 2;
+          grid-column-start: 3;
+        }
+        .box-9 {
+          background-color: lightcoral;
+          grid-row-start: 3;
+          grid-column-start: 1;
+        }
+        .box-10 {
+          background-color: lightseagreen;
+          grid-row-start: 3;
+          grid-column-start: 2;
+        }
+        .box-11 {
+          background-color: tomato;
+          grid-row-start: 3;
+          grid-column-start: 3;
+        }
+        .box-12{
+          background-color: chocolate;
+          grid-row-start: 3;
+          grid-column-start: 4;
+        }
+    }
