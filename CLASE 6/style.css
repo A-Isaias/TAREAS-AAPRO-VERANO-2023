@@ -1,0 +1,156 @@
+/*asignar negrita a los dias*/
+.dia {
+    font-weight: bold;
+  }
+/*asignar cursiva a todos los horarios*/  
+  
+  .horario {
+    font-style: italic;
+  }
+/*Colores de dias y fuente mas grande*/  
+.lunes {
+    color: blue;
+    font-size: 20px;
+  }
+  
+  .martes {
+    color: green;
+    font-size: 20px;
+  }
+  
+  .miercoles {
+    color: red;
+    font-size: 20px;
+  }
+  
+  .jueves {
+    color: purple;
+    font-size: 20px;
+  }
+  
+  .viernes {
+    color: orange;
+    font-size: 20px;
+  }
+  
+  .sabado {
+    color: brown;
+    font-size: 20px;
+  }
+  
+  .domingo {
+    color: gray;
+    font-size: 20px;
+  }
+  /*Colores de horarios coincidiendo el dia*/
+  
+  .hlunes {
+    color: blue;
+    
+  }
+  
+  .hmartes {
+    color: green;
+    ;
+  }
+  
+  .hmiercoles {
+    color: red;
+  
+  }
+  
+  .hjueves {
+    color: purple;
+    
+  }
+  
+  .hviernes {
+    color: orange;
+ 
+  }
+  
+  .hsabado {
+    color: brown;
+    
+  }
+  
+  .hdomingo {
+    color: gray;
+    
+  }
+/* Estilo del header */
+header {
+  background-color: black;
+  color: cyan;
+}
+/*reorientar nav*/
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilo del borde del formulario */
+form {
+  border: 5px solid lightgray; /* Borde formulario */
+}
+
+
+#servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#informacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*estilo del footer, link al inicio y redes sociales*/
+
+footer {
+  background-color: black;
+  color: cyan;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links {
+  order: 1;
+}
+.redes-sociales {
+  order: 2;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.redes-sociales img {
+  width: 30px;
+}
+
+
