@@ -9,6 +9,6 @@ var numeroB=10;
 var suma = numeroA+numeroB;
 console.log(suma);
 
-var numeroC=22;
-console.log(suma+numeroC)
+var numeroC=suma+22;
+console.log(numeroC)
 
